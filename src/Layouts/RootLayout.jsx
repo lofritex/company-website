@@ -5,10 +5,12 @@ import Navbar from "./Navbar";
 export default function RootLayout() {
   return (
     <div className="">
-      <header >
-        <Navbar/>
+      <header>
+        <Navbar />
       </header>
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
     </div>
   );
 }
