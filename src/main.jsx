@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./index.css";
 import RootLayout from "./Layouts/RootLayout";
+import HomePage from "./Pages/HomePage";
 
 const router = createBrowserRouter([
   {
@@ -12,8 +13,8 @@ const router = createBrowserRouter([
     errorElement: <h1>404</h1>,
     children : [
       {
-        path: "/green",
-        element : <h1>router working</h1>,
+        path: "/",
+        element : <HomePage/>,
       }
     ]
   },

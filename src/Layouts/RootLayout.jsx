@@ -1,13 +1,21 @@
-import { NavLink as Link, Outlet } from "react-router-dom"
+import { NavLink as Link, Outlet } from "react-router-dom";
+import Logo from "../images/Logo.svg";
 
 export default function RootLayout() {
   return (
     <div className="">
-        <nav className="flex ">
-            <span>
-            </span>
+      <header>
+        <nav className="flex justify-between items-center">
+          <img src={Logo} alt="Lofritex Logo" className="w-28 grow-0" />
+          <span className="flex grow justify-around items-center">
+            <Link to="/home">Home</Link>
+            <Link to="/aboutus">About US</Link>
+            <Link to="/services">Services</Link>
+          </span>
+          <button className="">Contact Us</button>
         </nav>
-        <Outlet/>
-        </div>
-  )
+      </header>
+      <Outlet />
+    </div>
+  );
 }
