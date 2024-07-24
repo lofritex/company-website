@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HomeEndSection() {
   return (
-    <section className="w-screen h-section bg-blue-300 flex ">
+    <section className="w-screen h-screen bg-blue-300 flex ">
       <div className="w-half flex flex-col justify-center items-center">
         <h1>Great Product is built by great teams</h1>
         <h3>

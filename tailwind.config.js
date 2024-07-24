@@ -9,7 +9,6 @@ export default {
       spacing:{
         "half" : "50%", 
         "nav"  : "8vh",
-        "section" : "92vh",
       }
     },
   },

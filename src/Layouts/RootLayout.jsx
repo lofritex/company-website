@@ -6,10 +6,10 @@ import Footer from "./Footer";
 export default function RootLayout() {
   return (
     <div className="">
-      <header className="h-nav">
+      <header className="w-full ">
         <Navbar />
       </header>
-      <main>
+      <main className="">
         <Outlet />
       </main>
       <footer>
