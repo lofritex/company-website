@@ -9,6 +9,10 @@ export default {
       spacing:{
         "half" : "50%", 
         "nav"  : "8vh",
+      },
+      colors:{
+        "primary" : "#fafafa",
+        "secondary" : "f9f9ff",
       }
     },
   },

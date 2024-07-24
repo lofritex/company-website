@@ -2,7 +2,7 @@ import image1 from "../images/home-section-image1.svg"
 
 export default function HomeTopSection() {
   return (
-    <section className="w-screen h-screen bg-red-300 flex ">
+    <section className="w-screen h-screen bg-primary flex ">
       <div className="w-half flex flex-col justify-center items-center">
         <h1>Great Product is built by great teams</h1>
         <h3>
