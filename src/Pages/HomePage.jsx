@@ -2,8 +2,8 @@ import image1 from "../images/home-section-image1.svg"
 
 export default function HomePage() {
   return (
-    <section className="w-screen h-screen bg-red-300 flex ">
-      <div>
+    <section className="w-screen h-section bg-red-300 flex ">
+      <div className="w-half flex flex-col justify-center items-center">
         <h1>Great Product is built by great teams</h1>
         <h3>
           We help build and manage a team of world-class developers to bring

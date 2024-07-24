@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 export default function RootLayout() {
   return (
     <div className="">
-      <header>
+      <header className="h-nav">
         <Navbar />
       </header>
       <main>

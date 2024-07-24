@@ -6,10 +6,12 @@ export default {
   ],
   theme: {
     extend: {
-      flexGrow: {
-        2: '2'
-      },
-    }
+      spacing:{
+        "half" : "50%", 
+        "nav"  : "8vh",
+        "section" : "92vh",
+      }
+    },
   },
   plugins: [],
 }
