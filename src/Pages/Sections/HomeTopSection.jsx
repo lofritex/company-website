@@ -1,4 +1,4 @@
-import image1 from "../../images/home-section-image1.svg"
+import image1 from "../images/home-section-image1.svg"
 
 export default function HomeTopSection() {
   return (
