@@ -7,8 +7,9 @@ export default function AboutUs() {
   return (
     <section className="w-full h-screen flex justify-center items-center bg-gray-50">
       <div className="w-half h-full flex flex-col justify-center items-center text-left relative">
-        <img src={HalfCircle} alt=" " className=" absolute top-0 z-0"/>
+        <img src={HalfCircle} alt=" " className=" absolute top-0 left-56 z-0"/>
         <div>
+          <div className="w-16 h-1 bg-blue-600"></div>
           <h2 className="text-3xl font-bold leading-tight mb-4 mt-8">
             Leading companies trust us <br />{" "}
             <span className="font-extrabold">to develop software</span>
