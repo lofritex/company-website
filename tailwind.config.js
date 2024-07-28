@@ -12,11 +12,11 @@ export default {
         "logo" : "150px",
         "pic"  : "60%",
         "cardWidth" : "333px",
-        "cardHeight" : "244.5px"
+        "cardHeight" : "260px"
       },
       colors:{
         "primary" : "#fafafa",
-        "secondary" : "#e0e0e5",
+        "secondary" : "#f9f9f9",
       }
     },
   },

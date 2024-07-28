@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Cards from "./Cards";
+import Arrow from "../Images/Arrow.svg";
 
 export default function Carousel({ data }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,9 +24,9 @@ export default function Carousel({ data }) {
   };
 
   return (
-    <div className="flex h-[600px] items-center">
-      <button className="bg-blue-800" onClick={prevSlide}>
-        Left
+    <div className="flex h-[400px] items-center">
+      <button className="rotate-180 w-40 h-10" onClick={prevSlide}>
+      <img src={Arrow} alt="Left Arrow" className="w-16 h-10"/>
       </button>
       <div id="carousel-container" className="flex gap-2 overflow-hidden ">
         {data.map((card) => {
@@ -41,8 +42,8 @@ export default function Carousel({ data }) {
         })}
       </div>
 
-      <button className="bg-blue-800" onClick={nextSlide}>
-        Right
+      <button className="w-40 h-40" onClick={nextSlide}>
+        <img src={Arrow} alt="Rigth Arrow" className="w-16 h-10" />
       </button>
     </div>
   );

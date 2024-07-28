@@ -54,8 +54,8 @@ export default function Services() {
   ];
   
   return (
-    <section className="w-full bg-secondary overflow-hidden">
-      <h1 className="text-3xl font-bold text-center m-5">Services we offer</h1>
+    <section className="w-full bg-secondary border overflow-hidden">
+      <h1 className="text-5xl font-bold text-center mt-10">Services we offer</h1>
       <Carousel data={data} />
     </section>
   );
