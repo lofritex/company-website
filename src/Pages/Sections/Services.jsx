@@ -1,21 +1,62 @@
-
-import Carousel from '../Components/Carousel'
+import Carousel from "../Components/Carousel";
+import WebDevIcon from "../Images/WebDevIcon.svg";
 
 export default function Services() {
-  const cards = [
-    { title: 'Card 1', content: 'Content of card 1' },
-    { title: 'Card 2', content: 'Content of card 2' },
-    { title: 'Card 3', content: 'Content of card 3' },
-    { title: 'Card 4', content: 'Content of card 4' },
-    { title: 'Card 5', content: 'Content of card 5' },
-    { title: 'Card 6', content: 'Content of card 5' },
-    { title: 'Card 7', content: 'Content of card 5' },
-    { title: 'Card 8', content: 'Content of card 5' },
-    { title: 'Card 9', content: 'Content of card 5' },
+  const data = [
+    {
+      title: "Responsive Web Design",
+      content:
+        "We create websites that are responsive and adapt seamlessly to all devices, ensuring a great user experience on desktops, tablets, and smartphones.",
+      image: WebDevIcon,
+    },
+    {
+      title: "E-commerce Development",
+      content:
+        "Boost your sales with a powerful e-commerce website that provides a secure and user-friendly shopping experience, tailored to your business needs.",
+      image: WebDevIcon,
+    },
+    {
+      title: "SEO Optimization",
+      content:
+        "Improve your website's visibility on search engines with our expert SEO services, designed to drive more traffic and enhance your online presence.",
+      image: WebDevIcon,
+    },
+    {
+      title: "Content Management Systems",
+      content:
+        "Manage your content effortlessly with our customized CMS solutions, giving you full control over your website's content without needing technical skills.",
+      image: WebDevIcon,
+    },
+    {
+      title: "UI/UX Design",
+      content:
+        "Deliver an exceptional user experience with our UI/UX design services, focused on creating intuitive and visually appealing interfaces for your website.",
+      image: WebDevIcon,
+    },
+    {
+      title: "Web Application Development",
+      content:
+        "Transform your business ideas into scalable web applications with our development services, using the latest technologies and best practices.",
+      image: WebDevIcon,
+    },
+    {
+      title: "Website Maintenance",
+      content:
+        "Keep your website running smoothly with our maintenance services, including regular updates, security checks, and performance optimization.",
+      image: WebDevIcon,
+    },
+    {
+      title: "Custom Web Solutions",
+      content:
+        "Get tailored web solutions to meet your unique business requirements, from simple websites to complex web applications and everything in between.",
+      image: WebDevIcon,
+    },
   ];
+  
   return (
-    <section className="w-full h-screen bg-black  flex ">
-      <Carousel cards={cards}/>
+    <section className="w-full bg-secondary overflow-hidden">
+      <h1 className="text-3xl font-bold text-center m-5">Services we offer</h1>
+      <Carousel data={data} />
     </section>
-  )
+  );
 }

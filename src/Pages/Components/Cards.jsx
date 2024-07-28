@@ -2,7 +2,7 @@
 
 export default function Cards({card}) {
   return (
-    <div className="p-4 rounded-lg border border-blue-200 w-cardWidth h-height bg-white">
+    <div className="p-4 rounded-lg border border-blue-200 w-cardWidth h-cardHeight bg-white">
       <div className="mr-4">
         <img src={card.image} alt={card.title} className="w-12 h-12" />
       </div>
