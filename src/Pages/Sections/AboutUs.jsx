@@ -28,6 +28,7 @@ export default function AboutUs() {
             See more Informations <span className="ml-2 text-xl">&#10132;</span>
           </a>
         </div>
+        <img className="w-20 absolute bottom-6 ml-44" src={Circle} alt=" " />
       </div>
       <div className="flex flex-col justify-center w-half h-full items-end">
         <img className="w-20 mr-60" src={Circle} alt=" " />
