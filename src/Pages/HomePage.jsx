@@ -1,13 +1,13 @@
-import HomeEndSection from "./Sections/HomeEndSection";
-import HomeServices from "./Sections/HomeServices";
-import HomeTopSection from "./Sections/HomeTopSection";
+import AboutUs from "./Sections/AboutUs";
+import Hero from "./Sections/Hero";
+import Services from "./Sections/Services";
 
 export default function HomePage() {
   return (
     <div>
-      <HomeTopSection/>
-      <HomeServices/>
-      <HomeEndSection/>
+      <Hero />
+      <Services />
+      <AboutUs />
     </div>
   );
 }

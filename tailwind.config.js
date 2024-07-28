@@ -9,10 +9,11 @@ export default {
       spacing:{
         "half" : "50%", 
         "nav"  : "8vh",
+        "logo" : "150px"
       },
       colors:{
         "primary" : "#fafafa",
-        "secondary" : "f9f9ff",
+        "secondary" : "#f9f9ff",
       }
     },
   },
