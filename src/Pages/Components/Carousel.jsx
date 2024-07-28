@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Cards from './Cards';
+import WebDevIcon from "../Images/WebDevIcon.svg"
 
 export default function Carousel({ cards }) {
   //   const visibleCards = 5; // Number of cards visible at a time
@@ -104,9 +105,14 @@ export default function Carousel({ cards }) {
   //       ))}
   //     </div>
   //   </div>
+  const data = {
+    "title" : "Web Design and Development",
+    "content" : "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+    "image" : WebDevIcon
+  }
   return (
-  <section className='w-full h-screen bg-black'>
-    <h1>hello world</h1>
+  <section className='w-full h-screen'>
+    <Cards card={data}/>
   </section>
   );
 }

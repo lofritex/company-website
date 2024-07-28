@@ -10,7 +10,9 @@ export default {
         "half" : "50%", 
         "nav"  : "8vh",
         "logo" : "150px",
-        "pic"  : "60%"
+        "pic"  : "60%",
+        "cardWidth" : "333px",
+        "cardHeight" : "244.5px"
       },
       colors:{
         "primary" : "#fafafa",
