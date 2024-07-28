@@ -1,5 +1,5 @@
 import React from "react";
-import Group from "../Images/AboutUs.svg";
+import image from "../Images/AboutUs.svg";
 import Circle from "../Images/Circle.svg";
 import HalfCircle from "../Images/HalfCircle.svg";
 
@@ -29,9 +29,9 @@ export default function AboutUs() {
           </a>
         </div>
       </div>
-      <div className="flex flex-col w-half h-full">
-        <img className="w-20" src={Circle} alt=" " />
-        <img src={Group} alt="Team" className="w-full h-full" />
+      <div className="flex flex-col justify-center w-half h-full items-end">
+        <img className="w-20 mr-60" src={Circle} alt=" " />
+        <img src={image} alt="Team" className="w-full h-pic" />
       </div>
     </section>
   );

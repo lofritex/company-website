@@ -9,7 +9,8 @@ export default {
       spacing:{
         "half" : "50%", 
         "nav"  : "8vh",
-        "logo" : "150px"
+        "logo" : "150px",
+        "pic"  : "60%"
       },
       colors:{
         "primary" : "#fafafa",
