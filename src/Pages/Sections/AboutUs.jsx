@@ -1,4 +1,3 @@
-import React from "react";
 import image from "../Images/AboutUs.svg";
 import Circle from "../Images/Circle.svg";
 import HalfCircle from "../Images/HalfCircle.svg";

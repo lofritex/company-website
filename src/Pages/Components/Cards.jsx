@@ -1,20 +1,15 @@
-import React from "react";
 
-export default function Cards({card,index}) {
-    const visibleCards = 5;
-    const carouselStyle = `${index == 2 ? "text-green-500 h-full flex items-center" : ""}`
 
+function Card({card}) {
   return (
-    <div
-      key={index}
-      className={`w-1/5 flex-shrink-0 p-4 ${carouselStyle} }`}
-      style={{ minWidth: `${100 / visibleCards}%` }}
-    >
-      <div className="p-6 h-36 w-full bg-white shadow-md rounded-lg text-center">
-        <div className="text-2xl mb-2">{card.icon}</div>
-        <h3 className="text-lg font-bold mb-1">{card.title}</h3>
-        <p className="text-sm text-gray-600">{card.description}</p>
+    <div className="p-4 bg-blue rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-blue-200 w-card">
+      <div className="mr-4">
+        <img src={card.image} alt={card.title} className="w-12 h-12" />
       </div>
+      <h3 className="text-xl font-bold text-blue-500 mb-2 text-left text-gradient">{card.title}</h3>
+      <p className="text-gray-700">{card.content}</p>
     </div>
   );
 }
+
+export default Card;
