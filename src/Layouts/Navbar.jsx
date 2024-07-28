@@ -3,7 +3,7 @@ import Logo from "./Images/Logo.svg";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center w-full h-nav fixed bg-white z-50 p-10">
+    <nav className="flex justify-between items-center w-full h-nav fixed bg-white z-50 p-10 border">
       <img src={Logo} alt="Lofritex Logo" className="w-logo m-5" />
       <span className="flex w-[50%] justify-around items-center">
         <Link to="/home">Home</Link>

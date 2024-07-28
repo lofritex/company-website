@@ -17,6 +17,7 @@ export default {
       colors:{
         "primary" : "#fafafa",
         "secondary" : "#f9f9f9",
+        "footerCaption" : "#718096",
       }
     },
   },
