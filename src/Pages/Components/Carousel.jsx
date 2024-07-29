@@ -29,12 +29,12 @@ export default function Carousel({ data }) {
       <img src={Arrow} alt="Left Arrow" className="w-16 h-10"/>
       </button>
       <div id="carousel-container" className="flex gap-2 overflow-hidden ">
-        {data.map((card) => {
+        {data.map((card,index) => {
           return (
             <div
               key={card.title}
-              className={`w-1/3 h-full shrink-0 transition-transform duration-700 ease-in-out flex justify-center`}
-              style={carouselStyle}
+              className={`w-1/5 h-full shrink-0 transition-transform duration-700 ease-in-out flex justify-center`}
+              style={{ transform : `translateX(-${currentIndex * 100}%) translateY(${(((-1)**(currentIndex+1))*(-1)**index) *100}px)`}}
             >
               <Cards card={card} />
             </div>
