@@ -20,7 +20,7 @@ export default function Carousel({ data }) {
   };
 
   return (
-    <div className="flex h-screen items-center">
+    <div className="flex h-[500px] items-center">
       <button className="rotate-180 w-40 h-10" onClick={prevSlide}>
       <img src={Arrow} alt="Left Arrow" className="w-16 h-10"/>
       </button>
@@ -29,8 +29,8 @@ export default function Carousel({ data }) {
           return (
             <div
               key={card.title}
-              className={`w-1/5 h-full shrink-0 transition-transform duration-700 ease-in-out flex justify-center items-center`}
-              style={{ transform : `translateX(-${currentIndex * 100}%) translateY(${index == currentIndex+2 ? (((-1)**(currentIndex))*(-1)**index) *70 : (((-1)**(currentIndex+1))*(-1)**index) *30 }px)`}}
+              className={`w-1/5 h-full shrink-0 transition-transform duration-1000 ease-in-out flex justify-center items-center`}
+              style={{ transform : `translateX(-${currentIndex *100}%) translateY(${index == currentIndex+2 ? (((-1)**(currentIndex))*(-1)**index) *70 : (((-1)**(currentIndex+1))*(-1)**index) *30 }px)`}}
             >
               <Cards card={card} />
             </div>
