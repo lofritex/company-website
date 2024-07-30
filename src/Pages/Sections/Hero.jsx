@@ -1,4 +1,4 @@
-import heroImage from "../Images/hero.svg";
+import heroImage from "../Images/Hero.svg";
 import ArrowCircle from "../Images/ArrowCircle.svg";
 
 export default function Hero() {

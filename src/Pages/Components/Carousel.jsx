@@ -20,31 +20,41 @@ export default function Carousel({ data }) {
   };
 
   return (
-    <div className="flex h-[500px] items-center">
-      <button className="rotate-180 w-40 h-10" onClick={prevSlide}>
-      <img src={Arrow} alt="Left Arrow" className="w-16 h-10"/>
+    <div className="flex h-full items-center">
+      <button className="h-10 w-20 rotate-180" onClick={prevSlide}>
+        <img src={Arrow} alt="Left Arrow" className="h-10 w-16" />
       </button>
-      <div id="carousel-container" className="flex items-center gap-2 overflow-hidden h-full  ">
-        {data.map((card,index) => {
+      <div
+        id="carousel-container"
+        className="flex h-full items-start  overflow-hidden bg-red-300"
+      >
+        {data.map((card, index) => {
+          let isActive;
+          if (index == currentIndex + 2) isActive = true;
+          else isActive = false;
           return (
             <div
               key={card.title}
-              className={`w-1/5 h-full shrink-0 transition-transform duration-1000 ease-in-out flex justify-center items-center`}
-              style={{ transform : `translateX(-${currentIndex *100}%) translateY(${index == currentIndex+2 ? (((-1)**(currentIndex))*(-1)**index) *70 : (((-1)**(currentIndex+1))*(-1)**index) *30 }px)`}}
+              className={`flex h-cardHeight-1 w-1/5 shrink-0 transition-transform duration-1000 ease-in-out justify-center`}
+              style={{
+                transform: `translateX(-${currentIndex * 100}%) 
+                translateY(${
+                  isActive
+                    ? (-1) ** currentIndex * (-1) ** index * 300
+                    : (-1) ** (currentIndex + 1) * (-1) ** index * 100
+                }px)
+                scale(${isActive ? "1.1" : "0.8"})`,
+              }}
             >
-              <Cards card={card} />
+              <Cards card={card} isActive={isActive} />
             </div>
           );
         })}
       </div>
 
-      <button className="w-40 h-40" onClick={nextSlide}>
-        <img src={Arrow} alt="Rigth Arrow" className="w-16 h-10" />
+      <button className="h-40 w-20" onClick={nextSlide}>
+        <img src={Arrow} alt="Rigth Arrow" className="h-10 w-16" />
       </button>
     </div>
   );
 }
-
-
-
-

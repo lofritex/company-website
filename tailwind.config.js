@@ -12,7 +12,8 @@ export default {
         "logo" : "150px",
         "pic"  : "60%",
         "cardWidth" : "333px",
-        "cardHeight" : "260px"
+        "cardHeight-1" : "260px",
+        "cardHeight-2" : "160px"
       },
       colors:{
         "primary" : "#fafafa",

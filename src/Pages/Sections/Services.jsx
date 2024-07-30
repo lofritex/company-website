@@ -52,10 +52,12 @@ export default function Services() {
       image: WebDevIcon,
     },
   ];
-  
+
   return (
-    <section className="w-full bg-secondary border overflow-hidden">
-      <h1 className="text-5xl font-bold text-center mt-10">Services we offer</h1>
+    <section className="h-[70vh] w-full overflow-hidden border bg-secondary">
+      {/* <h1 className="mt-10 text-center text-5xl font-bold">
+        Services we offer
+      </h1> */}
       <Carousel data={data} />
     </section>
   );
