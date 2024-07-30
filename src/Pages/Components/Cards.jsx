@@ -7,7 +7,7 @@ export default function Cards({ card, isActive }) {
       <h3 className={`"text-gradient my-3 text-left text-xl font-bold ${isActive && "transition duration-500 ease-in-out text-blue-600"}`}>
         {card.title}
       </h3>
-      <p className="text-gray-700">{card.content}</p>
+      <p className="text-gray-700 p-2">{card.content}</p>
     </div>
   );
 }
