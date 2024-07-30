@@ -20,8 +20,8 @@ export default function Carousel({ data }) {
   };
 
   return (
-    <div className=" w-full h-full relative">
-      <h1 className="w-full absolute font-bold text-5xl text-center top-12">
+    <div className="relative h-full w-full">
+      <h1 className="absolute top-12 w-full text-center text-5xl font-bold">
         Services we offer
       </h1>
       <div className="flex h-full items-center">
@@ -60,9 +60,29 @@ export default function Carousel({ data }) {
           <img src={Arrow} alt="Rigth Arrow" className="h-10 w-16" />
         </button>
       </div>
-      {/* <div id="indicator " className="w-full absolute bottom-8 bg-red-700 ">
-         <div className="w-6 h-6 bg-blue-500 rounded-full"><h1>hello</h1></div>
-      </div> */}
+      <div
+        id="indicator "
+        className="absolute bottom-8 flex w-full justify-center gap-1"
+      >
+        <div
+          className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == 0 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
+        ></div>
+        <div
+          className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == 1 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
+        ></div>
+        <div
+          className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == 2 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
+        ></div>
+        <div
+          className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == 3 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
+        ></div>
+        <div
+          className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == 4 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
+        ></div>
+        <div
+          className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == 5 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
+        ></div>
+      </div>
     </div>
   );
 }
