@@ -16,8 +16,8 @@ export default {
         "cardHeight-2" : "160px"
       },
       colors:{
-        "primary" : "#fafafa",
-        "secondary" : "#f9f9f9",
+        "primary" : "#FFFFFF",
+        "secondary" : "#F9F9FF",
         "footerCaption" : "#718096",
       }
     },

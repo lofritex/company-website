@@ -4,7 +4,7 @@ import HalfCircle from "../Images/HalfCircle.svg";
 
 export default function AboutUs() {
   return (
-    <section className="w-full h-screen flex justify-center items-center bg-gray-50">
+    <section className="w-full h-screen flex justify-center items-center bg-primary">
       <div className="w-half h-full flex flex-col justify-center items-center text-left relative">
         <img src={HalfCircle} alt=" " className=" absolute top-0 left-56 z-0"/>
         <div>

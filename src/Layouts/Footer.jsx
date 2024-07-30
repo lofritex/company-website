@@ -5,7 +5,7 @@ export default function Footer() {
     <nav className=" w-full border ">
       <div className="flex flex-row justify-center ">
         <div className="w-[35%] h-60 flex flex-col items-center">
-          <div>
+          <div className="w-ful ml-7">
           <img src={Logo} alt="Lofritex Logo" className="w-logo my-7 " />
           <p className="p-10px text-footerCaption ">
             Lorem ipsum is simply a dummy text of the printing and typesetting

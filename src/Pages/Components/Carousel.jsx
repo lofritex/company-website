@@ -4,10 +4,11 @@ import Arrow from "../Images/Arrow.svg";
 
 export default function Carousel({ data }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const cardCount = data.length;
 
   const nextSlide = () => {
     return setCurrentIndex((prevIndex) => {
-      if (prevIndex == 5) return 5;
+      if (prevIndex == 7) return 7;
       else return prevIndex + 1;
     });
   };
@@ -64,24 +65,16 @@ export default function Carousel({ data }) {
         id="indicator "
         className="absolute bottom-8 flex w-full justify-center gap-1"
       >
-        <div
-          className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == 0 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
-        ></div>
-        <div
-          className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == 1 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
-        ></div>
-        <div
-          className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == 2 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
-        ></div>
-        <div
-          className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == 3 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
-        ></div>
-        <div
-          className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == 4 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
-        ></div>
-        <div
-          className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == 5 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
-        ></div>
+        {data.map((card, index) => {
+          if(index == 1 || index == 0 || index ==  cardCount -2 || index == cardCount -1 ) 
+            return ;
+          return (
+            <div
+              key={card.title}
+              className={`ease-in-out" rounded-full border border-gray-300 transition-all duration-1000 ${currentIndex == index-2 ? "h-4 w-4 bg-blue-500" : "h-3 w-3"}`}
+            ></div>
+          );
+        })}
       </div>
     </div>
   );
