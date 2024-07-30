@@ -21,8 +21,8 @@ export default function Carousel({ data }) {
 
   return (
     <div className=" w-full h-full relative">
-      <h1 className="w-full absolute font-bold text-4xl text-center top-12">
-        Services We Offer
+      <h1 className="w-full absolute font-bold text-5xl text-center top-12">
+        Services we offer
       </h1>
       <div className="flex h-full items-center">
         <button className="h-10 w-20 rotate-180" onClick={prevSlide}>
@@ -60,6 +60,9 @@ export default function Carousel({ data }) {
           <img src={Arrow} alt="Rigth Arrow" className="h-10 w-16" />
         </button>
       </div>
+      {/* <div id="indicator " className="w-full absolute bottom-8 bg-red-700 ">
+         <div className="w-6 h-6 bg-blue-500 rounded-full"><h1>hello</h1></div>
+      </div> */}
     </div>
   );
 }
