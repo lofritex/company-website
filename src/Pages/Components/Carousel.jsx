@@ -40,7 +40,7 @@ export default function Carousel({ data }) {
             return (
               <div
                 key={card.title}
-                className={`flex h-cardHeight-1 w-1/5 shrink-0 justify-center transition-transform duration-1000 ease-in-out`}
+                className={`flex min-h-cardHeight-1 w-1/5 shrink-0 justify-center transition-transform duration-1000 ease-in-out`}
                 style={{
                   transform: `translateX(-${currentIndex * 100}%) 
                 translateY(${
