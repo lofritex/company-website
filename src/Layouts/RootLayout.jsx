@@ -9,10 +9,10 @@ export default function RootLayout() {
       <header className="w-full ">
         <Navbar />
       </header>
-      <main className="">
+      <main className="w-full">
         <Outlet />
       </main>
-      <footer>
+      <footer className="w-full">
         <Footer />
       </footer>
     </div>

@@ -3,7 +3,7 @@ import ArrowCircle from "../Images/ArrowCircle.svg";
 
 export default function Hero() {
   return (
-    <section className="w-screen h-screen bg-primary flex justify-center items-center">
+    <section className="w-full h-screen bg-primary flex justify-center items-center">
       <div className="w-half h-full flex flex-col justify-center items-center relative">
         <div className="p-8">
           <h1>Great Product is built by great teams</h1>
