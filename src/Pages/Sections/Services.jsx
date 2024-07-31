@@ -1,6 +1,7 @@
 import Carousel from "../Components/Carousel";
 import WebDevIcon from "../Images/WebDevIcon.svg";
 
+
 export default function Services() {
   const data = [
     {
@@ -77,8 +78,13 @@ export default function Services() {
     },
   ];
 
+
+
+   
+
+
   return (
-    <section className="h-[70vh] w-full overflow-hidden border bg-secondary">
+    <section className=" w-full overflow-hidden border bg-secondary">
       <Carousel data={data} />
     </section>
   );
