@@ -1,6 +1,8 @@
 
 export default function ServicesPage() {
   return (
-    <div>ServicesPage</div>
+    <section className="w-full h-screen">
+
+    </section>
   )
 }
