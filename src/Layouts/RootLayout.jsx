@@ -5,11 +5,11 @@ import Footer from "./Footer";
 
 export default function RootLayout() {
   return (
-    <div className="w-full flex flex-col">
-      <header className="w-full fixed z-50">
+    <div className="w-full">
+      <header className="w-full  sticky top-0 left-0 z-10">
         <Navbar />
       </header>
-      <main className="w-full">
+      <main className="w-full ">
         <Outlet />
       </main>
       <footer className="w-full">

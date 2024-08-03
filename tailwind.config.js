@@ -9,7 +9,7 @@ export default {
       spacing:{
         "half" : "50%", 
         "mobScreen" : "150vh", 
-        "nav"  : "8%",
+        "nav"  : "8vh",
         "logo" : "150px",
         "pic"  : "60%",
         "cardWidth" : "333px",

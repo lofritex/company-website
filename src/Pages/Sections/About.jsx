@@ -2,13 +2,13 @@ import AboutPic from "../Images/About.svg";
 
 export default function About() {
   return (
-    <section className="relative flex h-screen mt-20 w-full flex-col items-center justify-center ">
-      <h1 className="absolute left-[37%] top-16 text-6xl font-bold">
+    <section className="relative flex w-full flex-col items-center justify-center  ">
+      <h1 className="p-10 text-6xl font-bold">
         ABOUT US
       </h1>
       <div className="flex items-center justify-center">
         <div className="flex w-half items-center justify-center">
-          <img src={AboutPic} alt="About pic" className="h-5/6" />
+          <img src={AboutPic} alt="About pic" className="h-6/7" />
         </div>
         <div className="w-half p-20">
           <p className="px-10">

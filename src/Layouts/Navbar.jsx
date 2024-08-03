@@ -4,7 +4,7 @@ import HamburgerMenu from "./Components/HamburgerMenu";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center w-full h-nav fixed bg-white z-50 p-4 lg:p-10 border ">
+    <nav className="flex justify-between items-center w-full h-nav bg-white z-50 p-4 lg:p-10 border ">
       <img src={Logo} alt="Lofritex Logo" className="w-logo lg:m-5" />
       <span className="hidden lg:flex w-half justify-around items-center">
         <Link to="/">Home</Link>
