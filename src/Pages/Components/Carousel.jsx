@@ -27,7 +27,7 @@ export default function Carousel({ data }) {
 
   return (
     <>
-      <div className="relative hidden h-full w-full lg:block">
+      <div className="relative hidden h-[35vw] w-full lg:block">
         <h1 className="absolute top-12 w-full text-center text-5xl font-bold">
           Services we offer
         </h1>

@@ -84,7 +84,7 @@ export default function Services() {
 
 
   return (
-    <section className=" w-full h-[70vh] overflow-hidden border bg-secondary">
+    <section className=" w-full h-full overflow-hidden border bg-secondary">
       <Carousel data={data} />
     </section>
   );
