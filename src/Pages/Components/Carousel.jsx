@@ -27,7 +27,7 @@ export default function Carousel({ data }) {
 
   return (
     <>
-      <div className="relative hidden h-[600px] w-full lg:block">
+      <div className="relative hidden h-[650px] w-full lg:block">
         <h1 className="absolute top-12 w-full text-center text-5xl font-bold">
           Services we offer
         </h1>
@@ -37,7 +37,7 @@ export default function Carousel({ data }) {
           </button>
           <div
             id="carousel-container"
-            className="flex h-full items-start overflow-hidden py-20"
+            className="flex h-full items-start overflow-hidden pt-20"
           >
             {data.map((card, index) => {
               let isActive;
