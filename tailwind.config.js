@@ -9,12 +9,12 @@ export default {
       spacing:{
         "half" : "50%", 
         "mobScreen" : "150vh", 
-        "nav"  : "8vh",
+        "nav"  : "8%",
         "logo" : "150px",
         "pic"  : "60%",
         "cardWidth" : "333px",
         "cardHeight-1" : "260px",
-        "screenSize" : "92vh",
+        "screenSize" : "87vh",
       },
       colors:{
         "primary" : "#FFFFFF",

@@ -2,8 +2,8 @@ import AboutPic from "../Images/About.svg";
 
 export default function About() {
   return (
-    <section className="relative flex h-full w-full flex-col items-center justify-center ">
-      <h1 className="absolute left-[37%] top-40 text-6xl font-bold">
+    <section className="relative flex h-screen mt-20 w-full flex-col items-center justify-center ">
+      <h1 className="absolute left-[37%] top-16 text-6xl font-bold">
         ABOUT US
       </h1>
       <div className="flex items-center justify-center">
