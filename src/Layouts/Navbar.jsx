@@ -16,7 +16,7 @@ export default function Navbar() {
       Get in touch
       </button>
       <div className="w-full hidden">
-      <HamburgerMenu/>
+      <HamburgerMenu/>  
       </div>
     </nav>
   );
