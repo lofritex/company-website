@@ -10,7 +10,6 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/services">Services</Link>
         <Link to="/aboutus">About us</Link>
-        <Link to="/aboutus">How it works</Link>
       </span>
       <button className="px-6 py-2 bg-gradient-to-tr from-[#1A05FF] to-[#6FCFFF] text-white rounded-md  items-center justify-center hidden lg:flex">
       Get in touch

@@ -15,7 +15,7 @@ export default function Hero() {
         </div>
         <img src={ArrowCircle} alt=" " className="absolute bottom-0" />
       </div>
-      <img src={heroImage} alt="" className="h-pic mb-4" />
+      <img src={heroImage} alt="" className=" h-pic mb-4" />
     </section>
   );
 }
