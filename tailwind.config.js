@@ -8,6 +8,7 @@ export default {
     extend: {
       spacing:{
         "half" : "50%", 
+        "mobScreen" : "150vh", 
         "nav"  : "8vh",
         "logo" : "150px",
         "pic"  : "60%",

@@ -2,10 +2,10 @@ import image from "../Images/AboutUs.svg";
 import Circle from "../Images/Circle.svg";
 import HalfCircle from "../Images/HalfCircle.svg";
 
-export default function AboutUs() {
+export default function WhyUs() {
   return (
-    <section className="w-full h-screen flex justify-center items-center bg-primary">
-      <div className="w-half h-full flex flex-col justify-center items-center text-left relative">
+    <section className="w-full h-mobScreen lg:h-screen flex flex-col  lg:flex-row  justify-center items-center bg-primary">
+      <div className="w-full lg:w-half p-3 h-full flex flex-col justify-center items-center text-left relative">
         <img src={HalfCircle} alt=" " className=" absolute top-0 left-56 z-0"/>
         <div>
           <div className="w-16 h-1 bg-blue-600"></div>
@@ -29,8 +29,8 @@ export default function AboutUs() {
         </div>
         <img className="w-20 absolute bottom-6 ml-44" src={Circle} alt=" " />
       </div>
-      <div className="flex flex-col justify-center w-half h-full items-end">
-        <img className="w-20 mr-60" src={Circle} alt=" " />
+      <div className="flex flex-col justify-center w-full lg:w-half h-full items-end p-3">
+        <img className="w-20 mr-60 lg:visible hidden" src={Circle} alt=" " />
         <img src={image} alt="Team" className="w-full h-pic" />
       </div>
     </section>

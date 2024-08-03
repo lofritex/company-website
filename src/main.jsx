@@ -6,6 +6,8 @@ import "./index.css";
 import RootLayout from "./Layouts/RootLayout";
 import HomePage from "./Pages/HomePage";
 import ServicesPage from "./Pages/ServicesPage";
+import AboutUsPage from "./Pages/AboutUsPage";
+
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,10 @@ const router = createBrowserRouter([
       {
         path:"services",
         element : <ServicesPage/>
+      },
+      {
+        path:"aboutus",
+        element : <AboutUsPage/>
       }
     ]
   },
