@@ -4,7 +4,7 @@ import HalfCircle from "../Images/HalfCircle.svg";
 
 export default function WhyUs() {
   return (
-    <section className="w-full h-mobScreen lg:h-screen flex flex-col  lg:flex-row  justify-center items-center bg-primary">
+    <section className="w-full h-mobScreen lg:h-screenSize flex flex-col  lg:flex-row  justify-center items-center bg-primary">
       <div className="w-full lg:w-half p-3 h-full flex flex-col justify-center items-center text-left relative">
         <img src={HalfCircle} alt=" " className=" absolute top-0 left-56 z-0"/>
         <div>

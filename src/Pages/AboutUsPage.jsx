@@ -1,11 +1,11 @@
 import About from './Sections/About'
-import WhyUs from './Sections/WhyUs'
+import Misson from './Sections/Misson'
 
 export default function AboutUsPage() {
   return (
     <>
         <About/>
-        <WhyUs/>
+        <Misson/>
     </>
   )
 }

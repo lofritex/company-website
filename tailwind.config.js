@@ -14,7 +14,7 @@ export default {
         "pic"  : "60%",
         "cardWidth" : "333px",
         "cardHeight-1" : "260px",
-        "cardHeight-2" : "160px"
+        "screenSize" : "92vh",
       },
       colors:{
         "primary" : "#FFFFFF",
