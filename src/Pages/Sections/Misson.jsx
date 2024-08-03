@@ -11,7 +11,7 @@ export default function Misson() {
           <div className="mt-10 h-[1px] w-40 bg-blue-600"></div>
           <div className="ml-2 mt-10 h-[1px] w-40 bg-blue-600"></div>
         </div>
-        <p className="w-1/2 p-10">
+        <p className="w-1/2 p-10"> 
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cumque
           blanditiis autem quia eius id, corporis quos nam laborum beatae et
           magnam fuga dignissimos facilis ut aliquid. Minus, exercitationem
