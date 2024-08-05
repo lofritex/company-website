@@ -2,7 +2,7 @@ import Logo from "./Images/Logo.svg";
 
 export default function Footer() {
   return (
-    <nav className=" w-full border ">
+    <nav className=" w-full border  ">
       <div className="flex flex-row justify-center ">
         <div className="w-[35%] h-60 flex flex-col items-center">
           <div className="w-ful ml-7">

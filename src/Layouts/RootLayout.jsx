@@ -12,7 +12,7 @@ export default function RootLayout() {
       <main className="w-full ">
         <Outlet />
       </main>
-      <footer className="w-full">
+      <footer className="w-full ">
         <Footer />
       </footer>
     </div>

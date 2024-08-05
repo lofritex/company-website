@@ -7,7 +7,7 @@ export default function AboutUsPage() {
     <>
         <About/>
         <Misson/>
-        {/* <Values/> */}
+        <Values/>
     </>
   )
 }

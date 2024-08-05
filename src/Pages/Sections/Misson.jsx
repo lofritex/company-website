@@ -3,7 +3,7 @@ import vision from "../Images/vision.svg";
 
 export default function Misson() {
   return (
-    <section className="h-screen flex w-full items-center justify-center">
+    <section className=" flex w-full items-center justify-center py-40">
       <div className="flex w-half flex-col items-center justify-center">
         <img src={mission} alt="Our Mission Pic" className="m-10 w-40" />
         <h2>OUR MISSION</h2>
