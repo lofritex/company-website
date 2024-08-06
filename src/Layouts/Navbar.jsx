@@ -14,7 +14,7 @@ export default function Navbar() {
       <button className="px-6 py-2 bg-gradient-to-tr from-[#1A05FF] to-[#6FCFFF] text-white rounded-md  items-center justify-center hidden lg:flex">
       Get in touch
       </button>
-      <div className="w-full hidden">
+      <div className="w-full lg:hidden">
       <HamburgerMenu/>  
       </div>
     </nav>
