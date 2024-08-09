@@ -1,6 +1,5 @@
 import ValueCards from "../Components/ValueCards";
 import valuesPic from "../Images/valuesPic.svg";
-import "./values.css";
 
 const data = {
 
