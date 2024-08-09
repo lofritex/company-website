@@ -9,7 +9,7 @@ export default function About() {
           <img src={AboutPic} alt="About pic" className="h-6/7" />
         </div>
         <div className="flex flex-col items-center justify-center lg:w-half lg:p-4 relative">
-          <p className="max-w-[600px] px-10">
+          <p className="max-w-[600px] px-10 py-10">
             Welcome to Lofritex, where our commitment to Loyalty, Friendship,
             Technology, and Expertise defines everything we do. Our name stands
             as a testament to these core values, guiding us in every aspect of

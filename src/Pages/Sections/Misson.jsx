@@ -11,7 +11,7 @@ export default function Misson() {
           <div className="mt-10 h-[1px] w-40 bg-blue-600"></div>
           <div className="ml-2 mt-10 h-[1px] w-40 bg-blue-600"></div>
         </div>
-        <p className="w-1/2 px-20 pt-10 pb-20"> 
+        <p className="w-1/2 px-20 pt-10 pb-20 text-center"> 
         We aim to create an ecosystem where technological solutions are one call away.
         </p>
       </div>
@@ -23,7 +23,7 @@ export default function Misson() {
           <div className="mt-10 h-[1px] w-40 bg-blue-600"></div>
           <div className="ml-2 mt-10 h-[1px] w-40 bg-blue-600"></div>
         </div>
-        <p className="w-1/2 px-20 py-10">
+        <p className="w-1/2 px-20 py-10 text-center">
         To create an ecosystem where technological solutions are always within reach, empowering individuals and businesses to thrive with ease and efficiency.
         </p>
       </div>
