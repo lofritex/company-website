@@ -54,11 +54,11 @@ const data = [
 export default function ServicesPage() {
   return (
     <section className="pb-20">
-      <div className="w-full flex flex-col justify-center items-center p-10">
+      <div className="w-full flex flex-col justify-center items-center lg:p-10">
         <h2 className="font-thin text-[#5CA1FF] text-xl px-5 pt-5">OUR SERVICES</h2>
-        <h4 className="font-bold text-4xl max-w-half text-center px-10 py-5 ">We provide great services for our customers based on needs</h4>
+        <h4 className="font-bold text-4xl lg:max-w-half text-center lg:px-10 py-5 ">We provide great services for our customers based on needs</h4>
       </div>
-    <div className="grid grid-cols-3 grid-rows-3 justify-items-center">
+    <div className="grid lg:grid-cols-3 lg:grid-rows-3 justify-items-center">
       {data.map( (cardData => {
         return (
           <ServicesCard data={cardData} key={cardData.title}/>
