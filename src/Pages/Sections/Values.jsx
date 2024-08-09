@@ -40,7 +40,7 @@ export default function Values() {
   return (
     <section
       id="values"
-      className="mb-20 flex flex-col items-center justify-center"
+      className="mb-20 hidden md:flex flex-col items-center justify-center"
     >
       <div className="flex gap-32">
         <ValueCards value={data.loyalty} />
