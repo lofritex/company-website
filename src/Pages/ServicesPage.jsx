@@ -1,7 +1,10 @@
+import ServicesCard from "./Components/ServicesCard";
 
 
 export default function ServicesPage() {
   return (
-    <div>ServicesPage</div>
+    <div>
+      <ServicesCard/>
+    </div>
   )
 }
