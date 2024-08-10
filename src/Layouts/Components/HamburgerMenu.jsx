@@ -46,7 +46,7 @@ export default function HamburgerMenu() {
           >
             About us
           </Link>
-          <button className="items-center justify-center rounded-md bg-gradient-to-tr from-[#1A05FF] to-[#6FCFFF] px-6 py-2 text-white transition-all duration-300 hover:bg-gradient-to-tl lg:flex">
+          <button className="items-center max-w-[200px] justify-center rounded-md bg-gradient-to-tr from-[#1A05FF] to-[#6FCFFF] px-6 py-2 text-white transition-all duration-300 hover:bg-gradient-to-tl lg:flex">
             Get in touch
           </button>
         </nav>
