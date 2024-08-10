@@ -18,7 +18,7 @@ const visionData = {
 export default function Misson() {
   return (
     // <section className=" flex flex-col lg:flex-row w-full items-center justify-center py-40">
-    <section className=" grid lg:grid-cols-mission py-20 lg:py-40  lg:grid-flow-col justify-items-center items-center">
+    <section className=" grid lg:grid-cols-mission py-20 lg:py-40  lg:grid-flow-col justify-items-center items-center lg:gap-0 gap-7">
       <MissionCard data={missionData}/>
       <div className="hidden lg:grid h-44 w-[1px] bg-black"></div>
       <MissionCard data={visionData} reverseFlow={true}/>
