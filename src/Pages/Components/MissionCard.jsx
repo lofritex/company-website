@@ -14,9 +14,9 @@ export default function MissionCard({data, reverseFlow = false}) {
         <div className="h-[1px] w-40 bg-blue-600"></div>
         <div className="h-[1px] w-40 bg-blue-600"></div>
       </div>
-      <div className={`flex justify-center items-center ${reverseFlow && "col-start-1 row-start-1 flex-row-reverse"}`} >
+      <div className={`flex justify-center items-center lg:row-start-3  ${reverseFlow && "col-start-1 row-start-1 flex-row-reverse"}`} >
         <div className="visible h-44 w-[4px] bg-blue-600 lg:hidden"></div>
-        <p className="px-2 text-center lg:p-10">
+        <p className="px-2 text-center lg:p-10 max-w-[500px]">
             {data.content}
         </p>
       </div>

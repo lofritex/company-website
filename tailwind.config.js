@@ -20,6 +20,9 @@ export default {
         "primary" : "#FFFFFF",
         "secondary" : "#F9F9FF",
         "footerCaption" : "#718096",
+      },
+      gridTemplateColumns: {
+        'mission': 'minmax(400px, 1fr) 10px minmax(400px, 1fr)',
       }
     },
   },
