@@ -5,8 +5,8 @@ export default function About() {
     <section className="relative flex w-full flex-col items-center justify-center">
       <h1 className="p-10 text-6xl font-bold">ABOUT US</h1>
       <div className="flex flex-col items-center justify-center lg:flex-row">
-        <div className="flex w-half items-center justify-center">
-          <img src={AboutPic} alt="About pic" className="h-6/7" />
+        <div className="flex lg:w-half items-center justify-center">
+          <img src={AboutPic} alt="About pic" className="h-6/7 p-6 pl-5" />
         </div>
         <div className="flex flex-col items-center justify-center lg:w-half lg:p-4 relative">
           <p className="max-w-[600px] px-10 py-10">

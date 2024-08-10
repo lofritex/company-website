@@ -37,11 +37,11 @@ const data = {
 };
 
 export default function Values() {
-  return (
+  return (<>
     <section
       id="values"
       className="mb-20 hidden md:flex flex-col items-center justify-center"
-    >
+      >
       <div className="flex gap-32">
         <ValueCards value={data.loyalty} />
         <ValueCards value={data.friendship} />
@@ -54,7 +54,7 @@ export default function Values() {
           alt="Values Pic"
           id="valuesPic"
           className="max-h-[600px] px-10 py-10"
-        />
+          />
         <ValueCards value={data.expertise} />
       </div>
       <div className="flex gap-32">
@@ -62,5 +62,13 @@ export default function Values() {
         <ValueCards value={data.integrity} />
       </div>
     </section>
+
+    <section
+      id="valuesMobile"
+      className="lg:hidden grid"
+    >
+      
+    </section>
+          </>
   );
 }
