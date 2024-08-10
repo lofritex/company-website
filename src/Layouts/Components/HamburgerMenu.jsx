@@ -14,7 +14,7 @@ export default function HamburgerMenu() {
     <>
       <button
         onClick={toggler}
-        className="absolute right-0 top-0 z-30 flex h-nav w-full justify-end p-4 transition-all duration-500 ease-in-out"
+        className="absolute right-0 top-[-15px] z-50 flex h-nav  transition-all duration-500 ease-in-out"
       >
         <img
           src={menuActive ? closeIcon : hamburgerIcon}
@@ -22,7 +22,6 @@ export default function HamburgerMenu() {
           className="h-8 w-8"
         />
       </button>
-
       <div
         className={`fixed right-0 top-0 min-h-[400px] w-full max-w-[80%] transform border border-gray-300 bg-white shadow-lg transition-transform duration-500 ease-in-out ${
           menuActive ? "translate-x-0" : "translate-x-full"
