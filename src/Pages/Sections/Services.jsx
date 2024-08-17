@@ -1,4 +1,11 @@
 import Carousel from "../Components/Carousel";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
+
+import Cards from "../Components/Cards";
 import WebDevIcon from "../Images/WebDevIcon.svg";
 
 
@@ -52,30 +59,6 @@ export default function Services() {
         "Transform your business ideas into scalable web applications with our development services, using the latest technologies and best practices.",
       image: WebDevIcon,
     },
-    {
-      title: "Website Maintenance",
-      content:
-        "Keep your website running smoothly with our maintenance services, including regular updates, security checks, and performance optimization.",
-      image: WebDevIcon,
-    },
-    {
-      title: "Custom Web Solutions",
-      content:
-        "Get tailored web solutions to meet your unique business requirements, from simple websites to complex web applications and everything in between.",
-      image: WebDevIcon,
-    },
-    {
-      title: "Responsive Web Design ",
-      content:
-        "We create websites that are responsive and adapt seamlessly to all devices, ensuring a great user experience on desktops, tablets, and smartphones.",
-      image: WebDevIcon,
-    },
-    {
-      title: "E-commerce Development ",
-      content:
-        "Boost your sales with a powerful e-commerce website that provides a secure and user-friendly shopping experience, tailored to your business needs.",
-      image: WebDevIcon,
-    },
   ];
 
 
@@ -84,8 +67,26 @@ export default function Services() {
 
 
   return (
-    <section className=" w-full h-full overflow-hidden border bg-secondary">
-      <Carousel data={data} />
+    <section className=" p-20  border bg-black ">
+      <Swiper
+          spaceBetween={50}
+          slidesPerView={3}
+          modules={[Pagination]}
+          centeredSlides={false}
+          pagination={{
+            enabled: true,
+          }}
+        >
+          {data.map((card, index) => {
+            return (
+                <SwiperSlide key={card.title}>
+                  {({ isActive }) => <Cards card={card} isActive={isActive} />}
+                </SwiperSlide>
+
+            );
+          })}
+        </Swiper>
+      {/* <Carousel data={data} /> */}
     </section>
   );
 }
