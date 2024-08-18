@@ -95,7 +95,7 @@ export default function Services() {
             slidesPerView: 3,
             spaceBetween: 40,
             navigation: {
-              enabled: true,
+              enabled: false,
             },
           },
           1535: {

@@ -6,7 +6,7 @@ export default function Footer() {
     <nav className="w-full border">
       <div className="flex flex-row justify-between">
         <div className="flex min-w-[35%] flex-col items-center">
-          <div className="ml-7 w-full px-6">
+          <div className="ml-7 w-full lg:px-6">
             <img src={Logo} alt="Lofritex Logo" className="my-7 w-logo" />
           </div>
         </div>

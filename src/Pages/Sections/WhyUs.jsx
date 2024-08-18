@@ -4,34 +4,33 @@ import HalfCircle from "../Images/HalfCircle.svg";
 
 export default function WhyUs() {
   return (
-    <section className="w-full h-mobScreen lg:h-screen flex flex-col  lg:flex-row  justify-center items-center bg-primary">
-      <div className="w-full lg:w-half p-3 h-full flex flex-col justify-center items-center text-left relative">
-        <img src={HalfCircle} alt=" " className=" absolute top-0 left-56 z-0"/>
-        <div>
-          <div className="w-16 h-1 bg-blue-600"></div>
-          <h2 className="text-3xl font-bold leading-tight mb-4 mt-8">
+    <section className="flex  w-full flex-col items-center justify-center bg-primary lg:h-screen lg:flex-row">
+      <div className="relative flex lg:h-full w-full flex-col items-center justify-center p-3 text-left lg:w-half">
+        <img src={HalfCircle} alt=" " className="absolute left-56 top-0 z-0" />
+        <div className="p-4 lg:p-40">
+          <div className="h-1 w-16 bg-blue-600"></div>
+          <h2 className="mb-4 mt-8 text-3xl xl:text-5xl leading-tight">
             Leading companies trust us <br />{" "}
-            <span className="font-extrabold">to develop software</span>
+            <span className="font-bold">to develop software</span>
           </h2>
-          <p className="text-lg text-gray-700 mb-4">
-            We add development capacity to tech teams. Our value isn't <br />
-            limited to building teams but is equally distributed across the{" "}
-            <br /> project lifecycle. We are a custom software development{" "}
-            <br /> company that guarantees the successful delivery of your{" "}
-            <br /> project.
+          <p className="mb-4 text-lg text-gray-700">
+            We add development capacity to tech teams. Our value isn't limited
+            to building teams but is equally distributed across the project
+            lifecycle. We are a custom software development company that
+            guarantees the successful delivery of your project.
           </p>
           <a
             href="#none"
-            className="text-blue-600 flex items-center font-semibold"
+            className="flex items-center font-semibold text-blue-600"
           >
             See more Informations <span className="ml-2 text-xl">&#10132;</span>
           </a>
         </div>
-        <img className="w-20 absolute bottom-6 ml-44" src={Circle} alt=" " />
+        <img className="hidden lg:absolute bottom-6 ml-44 w-20" src={Circle} alt=" " />
       </div>
-      <div className="flex flex-col justify-center w-full lg:w-half h-full items-end p-3">
-        <img className="w-20 mr-60 lg:visible hidden" src={Circle} alt=" " />
-        <img src={image} alt="Team" className="w-full h-pic" />
+      <div className="flex lg:h-full w-full flex-col items-center lg:items-end justify-center p-3 lg:w-half">
+        <img className="mr-60 hidden w-20 lg:visible" src={Circle} alt=" " />
+        <img src={image} alt="Team" className=" hidden lg:block max-w-72 lg:h-pic " />
       </div>
     </section>
   );
