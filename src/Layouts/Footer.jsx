@@ -1,61 +1,54 @@
 import Logo from "./Images/Logo.svg";
+import { NavLink as Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <nav className=" w-full border  ">
-      <div className="flex flex-row justify-center ">
-        <div className="w-[35%] h-60 flex flex-col items-center">
-          <div className="w-ful ml-7">
-          <img src={Logo} alt="Lofritex Logo" className="w-logo my-7 " />
-          <p className="p-10px text-footerCaption ">
-            Lorem ipsum is simply a dummy text of the printing and typesetting
-            industry
-          </p>
+    <nav className="w-full border">
+      <div className="flex flex-row justify-between">
+        <div className="flex min-w-[35%] flex-col items-center">
+          <div className="ml-7 w-full px-6">
+            <img src={Logo} alt="Lofritex Logo" className="my-7 w-logo" />
           </div>
         </div>
-        <div className="w-[25%] h-60 flex flex-col items-center ">
+        <div className="hidden w-[25%] lg:block flex-col items-center text-center">
           <nav>
-          <h2 className="font-bold text-lg mt-7 mb-2 ">Links</h2>
-          <ul className="text-footerCaption">
-            <li>
-              <a href="#link" className="">
-                About Us
-              </a>
-            </li>
-            <li>
-              <a href="#link" className="">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#link" className="">
-                How it works
-              </a>
-            </li>
-            <li>
-              <a href="#link" className="">
-                Careers
-              </a>
-            </li>
-            <li>
-              <a href="#link" className="">
-                Areas We Serve
-              </a>
-            </li>
-          </ul>
+            <h2 className="mb-2 mt-7 text-lg font-bold">Links</h2>
+            <ul className="text-footerCaption">
+              <li>
+                <Link to="/" className="">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/about-us" className="">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/services" className="">
+                  Services
+                </Link>
+              </li>
+            </ul>
           </nav>
         </div>
-        <div className="w-[40%] h-60 ">
-          <h5 className="font-bold text-lg mt-7 mb-2">Contact us</h5>
-          <p className="text-footerCaption">
-            Lorem ipsum is simply a dummy text of the printing and typesetting
-            industry
-          </p>
-          <p className="text-footerCaption">+918130934013</p>
+        <div className="min-w-[40%] self-end text-right pr-10 pb-5">
+          <h5 className="mb-2 mt-7 text-lg font-bold">Contact us</h5>
+          <address className="not-italic text-footerCaption">
+            Nandanam, Chathoth,
+            <br />
+            Chingapuram P.O,
+            <br />
+            Thikkody, Quilandy, Kozhikode,
+            <br />
+            Kerala, India
+            <br />
+          </address>
+          <p className="text-footerCaption">+91 85905 71947</p>
         </div>
       </div>
-      <div className="w-full h-[90px] border p-2 flex justify-center items-center">
-        © 2023 Copyright by Lofritex Developers. All rights reserved.
+      <div className="flex max-h-[60px] w-full items-center justify-center border p-5 text-center ">
+        © 2024 Copyright by Lofritex IT Solutions LLP. All rights reserved.
       </div>
     </nav>
   );

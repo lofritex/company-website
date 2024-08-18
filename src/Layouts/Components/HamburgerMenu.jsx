@@ -41,7 +41,7 @@ export default function HamburgerMenu() {
             Services
           </Link>
           <Link
-            to="/aboutus"
+            to="/about-us"
             className="transition-colors duration-200 hover:text-blue-500"
           >
             About us
