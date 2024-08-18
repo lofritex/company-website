@@ -2,7 +2,7 @@ import ERPImage from "../Images/ERPSoftware.svg";
 
 export default function WebDev() {
   return (
-    <section className="flex   flex-col items-center justify-center p-10">
+    <section className="flex   flex-col items-center justify-center  p-10">
       <div className="flex max-w-7xl flex-col items-center pt-14 px-14">
         <h1 className="text-center text-5xl">ERP Software</h1>
         <h3 className="bg-gradient-to-r from-[#1B00FF] to-[#00AFFF] bg-clip-text pt-5 text-center text-3xl font-normal text-transparent">

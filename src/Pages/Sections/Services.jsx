@@ -77,7 +77,7 @@ export default function Services() {
         centeredSlides={true}
         loop={true}
         navigation={{
-          enabled:true,
+          enabled:false,
           el: ".custom-navigation"
         }}
         pagination={{
@@ -95,7 +95,7 @@ export default function Services() {
             slidesPerView: 3,
             spaceBetween: 40,
             navigation: {
-              enabled: false,
+              enabled: true,
             },
           },
           1535: {

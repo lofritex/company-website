@@ -14,7 +14,7 @@ export default function HamburgerMenu() {
     <>
       <button
         onClick={toggler}
-        className="absolute right-0 top-[-15px] z-50 flex h-nav  transition-all duration-500 ease-in-out"
+        className="absolute right-0 top-[-15px] z-50 flex   transition-all duration-500 ease-in-out"
       >
         <img
           src={menuActive ? closeIcon : hamburgerIcon}
