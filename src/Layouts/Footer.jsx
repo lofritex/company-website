@@ -47,7 +47,7 @@ export default function Footer() {
           <p className="text-footerCaption">+91 85905 71947</p>
         </div>
       </div>
-      <div className="flex max-h-[60px] w-full items-center justify-center border p-5 text-center ">
+      <div className="flex max-h-[30px] text-sm lg:max-h-[60px] w-full items-center justify-center border p-5 text-center ">
         © 2024 Copyright by Lofritex IT Solutions LLP. All rights reserved.
       </div>
     </nav>

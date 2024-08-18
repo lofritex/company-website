@@ -9,8 +9,8 @@ export default function WhyUs() {
         <img src={HalfCircle} alt=" " className="absolute left-56 top-0 z-0" />
         <div className="p-4 lg:p-40">
           <div className="h-1 w-16 bg-blue-600"></div>
-          <h2 className="mb-4 mt-8 text-3xl xl:text-5xl leading-tight">
-            Leading companies trust us <br />{" "}
+          <h2 className="mb-4 mt-8 text-2xl xl:text-5xl leading-tight">
+            <snap className="">Leading companies trust us </snap><br/>
             <span className="font-bold">to develop software</span>
           </h2>
           <p className="mb-4 text-lg text-gray-700">
@@ -28,9 +28,9 @@ export default function WhyUs() {
         </div>
         <img className="hidden lg:absolute bottom-6 ml-44 w-20" src={Circle} alt=" " />
       </div>
-      <div className="flex lg:h-full w-full flex-col items-center lg:items-end justify-center p-3 lg:w-half">
+      <div className="flex lg:h-full w-full flex-col items-center  justify-center p-3 lg:w-half">
         <img className="mr-60 hidden w-20 lg:visible" src={Circle} alt=" " />
-        <img src={image} alt="Team" className=" hidden lg:block max-w-72 lg:h-pic " />
+        <img src={image} alt="Team" className=" hidden lg:block lg:h-pic " />
       </div>
     </section>
   );

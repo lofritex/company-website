@@ -19,11 +19,13 @@ export default function Hero() {
               </span>
             </span>
           </h2>
-          <h3>
+          <h3 className="text-2xl max-w-[800px]">
             We help build and manage a team of world-class developers to bring
             your vision to life.
           </h3>
-          <button>Let's Get started!</button>
+          <button className="my-6 lg:my-10 items-center justify-center rounded-md bg-gradient-to-tr from-[#1A05FF] to-[#6FCFFF] px-6 py-2 text-white lg:flex">
+            Let's get started
+          </button>
         </div>
         <img
           src={ArrowCircle}
@@ -31,7 +33,7 @@ export default function Hero() {
           className="absolute bottom-0 left-60 hidden lg:block"
         />
       </div>
-      <img src={heroImage} alt="" className="max-w-72 lg:mb-4 lg:h-pic" />
+      <img src={heroImage} alt="" className="max-w-72 lg:max-w-[600px] lg:mb-4 lg:h-pic" />
     </section>
   );
 }

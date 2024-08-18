@@ -82,7 +82,7 @@ export default function Services() {
         modules={[Pagination, Autoplay]}
         autoplay={{
           delay: 1500,
-          disableOnInteraction: true,
+          disableOnInteraction: false,
         }}
         className=" "
         breakpoints={{
