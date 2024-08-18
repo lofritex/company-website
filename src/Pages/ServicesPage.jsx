@@ -11,51 +11,61 @@ import InventoryManagement from "./Images/InventoryManagement.svg";
 
 const data = [
   {
-      "title": "Web Development",
-      "caption": "Create stunning and responsive websites tailored to your business needs. Our web development team ensures a seamless user experience with cutting-edge design and functionality.",
-      "image": WebDevImage
+    "title": "Web Development",
+    "caption": "Create stunning and responsive websites tailored to your business needs. Our web development team ensures a seamless user experience with cutting-edge design and functionality.",
+    "image": WebDevImage,
+    "link": "/temp"
   },
   {
-      "title": "App Development",
-      "caption": "Transform your ideas into reality with our custom app development services. We build robust, user-friendly mobile applications for Android and iOS platforms that drive engagement and efficiency.",
-      "image": AppDev
+    "title": "App Development",
+    "caption": "Transform your ideas into reality with our custom app development services. We build robust, user-friendly mobile applications for Android and iOS platforms that drive engagement and efficiency.",
+    "image": AppDev,
+    "link": "/temp"
   },
   {
-      "title": "ERP Software",
-      "caption": "Streamline your business operations with our comprehensive ERP solutions. Integrate all your processes, from finance to supply chain, into a single platform for improved productivity and decision-making.",
-      "image": ERPSoftware
+    "title": "ERP Software",
+    "caption": "Streamline your business operations with our comprehensive ERP solutions. Integrate all your processes, from finance to supply chain, into a single platform for improved productivity and decision-making.",
+    "image": ERPSoftware,
+    "link": "/temp"
   },
   {
-      "title": "CRM Software",
-      "caption": "Enhance your customer relationships with our innovative CRM software. Manage your customer interactions, sales, and marketing strategies efficiently, leading to increased customer satisfaction and loyalty.",
-      "image": CRMSoftware
+    "title": "CRM Software",
+    "caption": "Enhance your customer relationships with our innovative CRM software. Manage your customer interactions, sales, and marketing strategies efficiently, leading to increased customer satisfaction and loyalty.",
+    "image": CRMSoftware,
+    "link": "/temp"
   },
   {
-      "title": "Payroll Software",
-      "caption": "Simplify your payroll processing with our easy-to-use software. Automate salary calculations, tax compliance, and employee benefits management with precision and ease.",
-      "image": PayrollSoftware
+    "title": "Payroll Software",
+    "caption": "Simplify your payroll processing with our easy-to-use software. Automate salary calculations, tax compliance, and employee benefits management with precision and ease.",
+    "image": PayrollSoftware,
+    "link": "/temp"
   },
   {
-      "title": "Inventory Management Software",
-      "caption": "Optimize your inventory control with our advanced software solutions. Track stock levels, manage orders, and reduce wastage with real-time insights and analytics.",
-      "image": InventoryManagement
+    "title": "Inventory Management Software",
+    "caption": "Optimize your inventory control with our advanced software solutions. Track stock levels, manage orders, and reduce wastage with real-time insights and analytics.",
+    "image": InventoryManagement,
+    "link": "/temp"
   },
   {
-      "title": "Shopify Plugins",
-      "caption": "Enhance your Shopify store's functionality with our custom plugins. From payment gateways to marketing tools, we offer solutions to boost your e-commerce success.",
-      "image": Shopify
+    "title": "Shopify Plugins",
+    "caption": "Enhance your Shopify store's functionality with our custom plugins. From payment gateways to marketing tools, we offer solutions to boost your e-commerce success.",
+    "image": Shopify,
+    "link": "/temp"
   },
   {
-      "title": "Progressive Web Application",
-      "caption": "Experience the power of Progressive Web Apps (PWA) that combine the best of web and mobile applications. Enjoy fast loading times, offline access, and seamless user experiences across devices.",
-      "image": PWA
+    "title": "Progressive Web Application",
+    "caption": "Experience the power of Progressive Web Apps (PWA) that combine the best of web and mobile applications. Enjoy fast loading times, offline access, and seamless user experiences across devices.",
+    "image": PWA,
+    "link": "/temp"
   },
   {
-      "title": "Web 3 / Blockchain",
-      "caption": "Explore the future of the internet with our Web 3 and blockchain development services. Build decentralized applications and leverage blockchain technology for security, transparency, and innovation.",
-      "image": Blockchain
+    "title": "Web 3 / Blockchain",
+    "caption": "Explore the future of the internet with our Web 3 and blockchain development services. Build decentralized applications and leverage blockchain technology for security, transparency, and innovation.",
+    "image": Blockchain,
+    "link": "/temp"
   }
-]
+];
+
 
 
 export default function ServicesPage() {

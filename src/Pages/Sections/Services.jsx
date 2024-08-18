@@ -9,9 +9,6 @@ import Cards from "../Components/Cards";
 import WebDevIcon from "../Images/WebDevIcon.svg";
 
 
-import Arrow from "../Images/Arrow.svg";
-
-
 export default function Services() {
   const data = [
     {

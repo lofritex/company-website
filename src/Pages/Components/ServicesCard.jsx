@@ -2,6 +2,7 @@ import { NavLink as Link } from "react-router-dom";
 import LearnMoreArrow from "../Images/LearnMoreArrow.svg";
 
 export default function ServicesCard({data}) {
+  
   return (
     <div className="m-5 flex max-h-[550px] max-w-[350px] flex-col items-center justify-center rounded-xl bg-[#0f4c81] p-5 text-white">
       <div className="flex-grow flex flex-col items-center">
@@ -15,7 +16,7 @@ export default function ServicesCard({data}) {
           {data.caption}
         </p>
       </div>
-      <Link to="/">
+      <Link to={`/services${data.link}`}>
         <div className="flex">
           <h6 className="p-5 text-xl font-bold">Learn More</h6>
           <img src={LearnMoreArrow} alt="" />
