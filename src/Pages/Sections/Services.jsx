@@ -1,9 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
 
-import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 
 import Cards from "../Components/Cards";
 import WebDevIcon from "../Images/WebDevIcon.svg";
@@ -76,15 +75,11 @@ export default function Services() {
         slidesPerView={1}
         centeredSlides={true}
         loop={true}
-        navigation={{
-          enabled:false,
-          el: ".custom-navigation"
-        }}
         pagination={{
           el: ".custom-pagination",
           clickable: true,
         }}
-        modules={[Pagination, Navigation, Autoplay]}
+        modules={[Pagination, Autoplay]}
         autoplay={{
           delay: 1500,
           disableOnInteraction: true,
@@ -94,9 +89,6 @@ export default function Services() {
           768: {
             slidesPerView: 3,
             spaceBetween: 40,
-            navigation: {
-              enabled: false,
-            },
           },
           1535: {
             slidesPerView: 4,
